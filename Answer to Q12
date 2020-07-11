@@ -4,4 +4,5 @@ c will be assigned value of a and b will remain as such. Here, comma is being us
 In line d=(a,b), comma is being used as an operator in which the first operand (a) is considered/executed and its value is discarded. 
 Then the second operand (b) is executed and its value is returned, i.e., assigned to d.
 Therefore  output:
+
 5 6
