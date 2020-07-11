@@ -13,9 +13,9 @@ int main() {
 	
 	while(t-->0)
 	{
-	    int n,b;int a[n];
+	    int n,b;
 	    cin>>n>>b;
-	    
+	    int a[n]; //we cannot declare an array with size n when the size of n has not yet been given as input by user, this is causing segmentation fault.
 	    for(int i=0;i<n;i++)
 	    {
 	        cin>>a[i];
